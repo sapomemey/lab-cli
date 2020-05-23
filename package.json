@@ -1,6 +1,6 @@
 {
   "name": "create-sapomemey-cli",
-  "version": "1.24.0",
+  "version": "1.25.0",
   "description": "A blank schematics",
   "scripts": {
     "build": "tsc -p tsconfig.json",
@@ -22,7 +22,7 @@
   },
   "author": "",
   "license": "MIT",
-  "schematics": "./src/collection.json",
+  "schematics": "./dist/collection.json",
   "dependencies": {
     "@angular-devkit/core": "^9.1.7",
     "@angular-devkit/schematics": "^9.1.7",
