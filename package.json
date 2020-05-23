@@ -1,6 +1,6 @@
 {
   "name": "create-alvaro-cli",
-  "version": "2.6.0",
+  "version": "2.7.0",
   "description": "A blank schematics",
   "scripts": {
     "build": "tsc -p tsconfig.json",
@@ -10,9 +10,15 @@
     "schematics",
     "lab-cli"
   ],
+  "files": [
+    "src/index.js"
+  ],
   "engines": {
     "node": ">=8.9.0",
     "npm": ">=6.0.0"
+  },
+  "bin": {
+    "create-alvaro-cli": "src/index.js"
   },
   "author": "",
   "license": "MIT",
