@@ -1,6 +1,6 @@
 {
   "name": "create-sapomemey-cli",
-  "version": "1.7.0",
+  "version": "1.8.0",
   "description": "A blank schematics",
   "scripts": {
     "build": "tsc -p tsconfig.json",
@@ -11,14 +11,14 @@
     "lab-cli"
   ],
   "files": [
-    "src/index.js"
+    "dist/index.js"
   ],
   "engines": {
     "node": ">=8.9.0",
     "npm": ">=6.0.0"
   },
   "bin": {
-    "create-sapomemey-cli": "src/index.js"
+    "create-sapomemey-cli": "dist/index.js"
   },
   "author": "",
   "license": "MIT",
