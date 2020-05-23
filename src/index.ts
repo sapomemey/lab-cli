@@ -1,11 +1,10 @@
 #!/usr/bin/env node
-import { red } from 'turbocolor';
+import { green } from 'turbocolor';
 import { exec } from 'child_process';
-import { resolve } from 'path';
 
 function run() {
-  console.log(red('Alvar ramirez castillo 1'));
-  const command = `node ${resolve('node_modules/.bin/schematics')} blank --name=bvi`
+  console.log(green('Alvar ramirez castillo 2'));
+  const command = `node schematics blank --name=bvi`
   exec(command);
 }
 
