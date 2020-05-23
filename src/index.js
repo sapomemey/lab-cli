@@ -12,15 +12,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 const node_util_1 = require("./utils/node.util");
 function run() {
     return __awaiter(this, void 0, void 0, function* () {
-        let args = process.argv.slice(2);
-        const help = args.indexOf('--help') >= 0;
-        if (help) {
-            console.log(`Uso:
-
-      npm init sapo-cli
-    `);
-            return 0;
-        }
+        console.log('Alvar ramirez castillo');
         node_util_1.nodeVersionWarning();
     });
 }

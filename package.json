@@ -1,6 +1,6 @@
 {
   "name": "create-alvaro-cli",
-  "version": "2.7.0",
+  "version": "2.8.0",
   "description": "A blank schematics",
   "scripts": {
     "build": "tsc -p tsconfig.json",
