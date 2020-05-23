@@ -1,7 +1,8 @@
 #!/usr/bin/env node
+import { yellow } from 'turbocolor';
 
 function run() {
-  console.log('Alvar ramirez castillo');
+  console.log(yellow('Alvar ramirez castillo'));
 }
 
 run();
