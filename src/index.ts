@@ -1,11 +1,10 @@
 #!/usr/bin/env node
-import { blue } from 'turbocolor';
-import { exec } from 'child_process';
+import { red } from 'turbocolor';
+import newSchema from './new/index';
 
 function run() {
-  console.log(blue('Alvar ramirez castillo'));
-
-  exec('schematics .:new');
+  console.log(red('Alvar ramirez castillo'));
+  newSchema();
 }
 
 run();
