@@ -1,6 +1,6 @@
 // import { externalSchematic, Rule, chain } from '@angular-devkit/schematics';
 
-export default function newSchema() {
+export function newSchema() {
   console.log('hola mundo');
   // return chain([
   //   externalSchematic('@schematics/angular', 'ng-new', {
