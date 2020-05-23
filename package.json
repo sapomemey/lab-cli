@@ -10,15 +10,9 @@
     "schematics",
     "lab-cli"
   ],
-  "files": [
-    "dist/index.js"
-  ],
   "engines": {
     "node": ">=8.9.0",
     "npm": ">=6.0.0"
-  },
-  "bin": {
-    "create-lab-cli": "dist/index.js"
   },
   "author": "",
   "license": "MIT",
