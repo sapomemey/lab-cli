@@ -1,6 +1,6 @@
 {
   "name": "create-sapomemey-cli",
-  "version": "1.16.0",
+  "version": "1.17.0",
   "description": "A blank schematics",
   "scripts": {
     "build": "tsc -p tsconfig.json",
@@ -27,6 +27,8 @@
     "@angular-devkit/core": "^9.1.7",
     "@angular-devkit/schematics": "^9.1.7",
     "@schematics/angular": "^9.1.7",
+    "child_process": "^1.0.2",
+    "path": "^0.12.7",
     "turbocolor": "^2.4.5",
     "typescript": "~3.8.2"
   },

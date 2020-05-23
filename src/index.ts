@@ -1,14 +1,12 @@
 #!/usr/bin/env node
-import { green } from 'turbocolor';
-import { externalSchematic } from '@angular-devkit/schematics';
+import { red } from 'turbocolor';
+import { exec } from 'child_process';
+import { resolve } from 'path';
 
 function run() {
-  console.log(green('Alvar ramirez castillo 2'));
-  externalSchematic('@schematics/angular', 'ng-new', {
-    createApplication: false,
-    name: 'mark-1',
-    version: '9.1.7'
-  })
+  console.log(red('Alvar ramirez castillo 1s'));
+  const command = `${resolve('node_modules/.bin/schematics')} blank alvaro`
+  exec(command);
 }
 
 run();
