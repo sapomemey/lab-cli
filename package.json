@@ -1,5 +1,5 @@
 {
-  "name": "create-sapomemeys-cli",
+  "name": "create-sapomemey-cli",
   "version": "1.2.0",
   "description": "A blank schematics",
   "scripts": {
@@ -16,9 +16,6 @@
   "engines": {
     "node": ">=8.9.0",
     "npm": ">=6.0.0"
-  },
-  "bin": {
-    "create-alvaro-cli": "src/index.js"
   },
   "author": "",
   "license": "MIT",
