@@ -1,6 +1,6 @@
 {
   "name": "create-sapomemey-cli",
-  "version": "1.18.0",
+  "version": "1.19.0",
   "description": "A blank schematics",
   "scripts": {
     "build": "tsc -p tsconfig.json",
@@ -18,7 +18,8 @@
     "npm": ">=6.0.0"
   },
   "bin": {
-    "create-sapomemey-cli": "dist/index.js"
+    "create-sapomemey-cli": "dist/index.js",
+    "schematics": "node_modules/.bin/schematics"
   },
   "author": "",
   "license": "MIT",
@@ -28,7 +29,6 @@
     "@angular-devkit/schematics": "^9.1.7",
     "@schematics/angular": "^9.1.7",
     "child_process": "^1.0.2",
-    "path": "^0.12.7",
     "turbocolor": "^2.4.5",
     "typescript": "~3.8.2"
   },
