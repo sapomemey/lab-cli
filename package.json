@@ -17,7 +17,7 @@
     "npm": ">=6.0.0"
   },
   "bin": {
-    "create-stencil": "dist/index.js"
+    "create-lab-cli": "dist/index.js"
   },
   "author": "",
   "license": "MIT",
