@@ -10,15 +10,9 @@
     "schematics",
     "lab-cli"
   ],
-  "files": [
-    "src/index.js"
-  ],
   "engines": {
     "node": ">=8.9.0",
     "npm": ">=6.0.0"
-  },
-  "bin": {
-    "create-alvaro-cli": "src/index.js"
   },
   "author": "",
   "license": "MIT",
