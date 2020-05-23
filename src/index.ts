@@ -1,10 +1,10 @@
 #!/usr/bin/env node
 import { red } from 'turbocolor';
-import { schematic } from '@angular-devkit/schematics';
+import { exec } from 'child_process';
 
 function run() {
   console.log(red('Alvar ramirez castillo 1s'));
-  schematic('new', {});
+  exec('schematics blank holamundo')
 }
 
 run();
